@@ -14,7 +14,7 @@ public class Exercise9_RemovingSpaces {
         String sentence = scanner.nextLine();
         
         // TODO: Remove all spaces from the sentence using replace() or replaceAll()
-        
+        System.out.println(sentence.replaceAll(" ", ""));
         scanner.close();
     }
 }

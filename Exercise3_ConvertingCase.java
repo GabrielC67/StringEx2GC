@@ -15,10 +15,10 @@ public class Exercise3_ConvertingCase {
         System.out.print("Enter a message: ");
         String message = scanner.nextLine();
         
-        // TODO: Convert and print the message in all uppercase
-        
+        // TODO: Convert and print the message in all uppercas
+        System.out.println(message.toUpperCase());
         // TODO: Convert and print the message in all lowercase
-        
+        System.out.println(message.toLowerCase());
         scanner.close();
     }
 }

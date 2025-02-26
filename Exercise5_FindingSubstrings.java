@@ -18,7 +18,7 @@ public class Exercise5_FindingSubstrings {
         
         // TODO: Check if the word appears in the sentence using contains()
         // or indexOf() methods
-        
+        System.out.print(sentence.contains(word));
         scanner.close();
     }
 }

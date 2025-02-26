@@ -5,6 +5,7 @@
  * if it's a palindrome (reads the same backward as forward).
  * Ignore case sensitivity.
  */
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Exercise10_PalindromeChecker {
@@ -15,7 +16,9 @@ public class Exercise10_PalindromeChecker {
         String input = scanner.nextLine();
         
         // TODO: Check if the string is a palindrome and print the result
-        
+        String revInput = new StringBuilder(input).reverse().toString();
+        boolean isPalindrome = input.equalsIgnoreCase(revInput);
+        System.out.println(isPalindrome);
         scanner.close();
     }
 }

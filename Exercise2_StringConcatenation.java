@@ -18,7 +18,10 @@ public class Exercise2_StringConcatenation {
         
         // TODO: Concatenate the first and last name with a space in between
         // using the + operator or concat() method
-        
+        String fullName = firstName + " " + lastName;
+        System.out.println("My full name is: " + fullName);
+        System.out.println("My full name is: " + firstName.concat(" " + lastName));
+
         scanner.close();
     }
 }
